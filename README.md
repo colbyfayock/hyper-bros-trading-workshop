@@ -48,7 +48,9 @@ There are two things that are probably considered a "strict" requirements for th
 * [git](https://git-scm.com/)
 * Signed in to GitHub locally
 
-This means that you should have basic familiar with a terminal as we'll be using it to run commands. You can alternatively follow along using tools like [CodeSandbox](https://codesandbox.io/) but I won't be able to help you debug.
+This means that you should have basic familiar with a terminal as we'll be using it to run commands.
+
+> Not sure how to use a terminal? You still might be able to follow along, see how with [Getting Started Without a Terminal](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/help/Getting%20Started%20Without%20a%20Terminal.md)
 
 The **operating system** you use shouldn't matter as long as you can run commands with npm (or yarn if that's your thing).
 
