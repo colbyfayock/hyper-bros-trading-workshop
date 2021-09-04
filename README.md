@@ -1,26 +1,3 @@
-## Prerequisites
-
-- node / npm
-- GitHub Account
-- Snipcart Account
-- Signed into GitHub account locally
-- Netlify Account
-
-### node/npm
-
-### GitHub Account with device logged in
-
-### Snipcart Account
-
-### Netlify Account
-
-
-
-
-
-
-
-
 # 🛍 Build an Online Store with Next.js, Snipcart, and Netlify
 
 * Demo: https://hyper-bros-trading-workshop.netlify.app/
@@ -63,8 +40,7 @@ You'll also want to make sure you have signed up for a free acount with the foll
 - Snipcart
 - Netlify Account
 
-There's really one thing you would ideally have done before we jump into the workshop:
-* Make sure you're set up with the minimum environment requirements
+While you _can_ do these things during the workshop, you risk the chance that you'll fall behind while we're working through the curriculum.
 
 ### Environment Requirements
 There are two things that are probably considered a "strict" requirements for the workshop:
@@ -120,7 +96,6 @@ As far as the project we'll create and work through together, you're welcome to 
 * 
 
 ## 🎓 After the Workshop
-
 
 ### Feedback
 
