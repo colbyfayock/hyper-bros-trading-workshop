@@ -48,6 +48,8 @@ There are two things that are probably considered a "strict" requirements for th
 * [git](https://git-scm.com/)
 * Signed in to GitHub locally
 
+This means that you should have basic familiar with a terminal as we'll be using it to run commands. You can alternatively follow along using tools like [CodeSandbox](https://codesandbox.io/) but I won't be able to help you debug.
+
 The **operating system** you use shouldn't matter as long as you can run commands with npm (or yarn if that's your thing).
 
 If you can run `npm -v` and `git --version`, you should be good to go.
