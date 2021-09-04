@@ -9,7 +9,7 @@ import styles from './Header.module.scss';
 
 const Header = () => {
   const { cart = {} } = useSnipcart();
-  const { subtotal = '0.00' } = cart;
+  const { subtotal = 0 } = cart;
   return (
     <header className={styles.header}>
       <Container className={styles.headerContainer}>
