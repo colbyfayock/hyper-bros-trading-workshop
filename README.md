@@ -54,18 +54,31 @@ You can also find me on Twitter at [@colbyfayock](https://twitter.com/colbyfayoc
 
 ## 🧰 Before the Workshop
 
+There are a few things you'll want to make sure you'll have prepped before we jump into the workshop.
+
+First off, you'll want to make sure that you meet the miminum environment requirements in the section below. Basically, you should be able to use npm for working with projects locally on your machine or if you're using a cloud environment like CodeSandbox.
+
+You'll also want to make sure you have signed up for a free acount with the following:
+- GitHub
+- Snipcart
+- Netlify Account
+
 There's really one thing you would ideally have done before we jump into the workshop:
 * Make sure you're set up with the minimum environment requirements
 
 ### Environment Requirements
-There's also only one thing that is probably considered a "strict" requirement for the workshop:
+There are two things that are probably considered a "strict" requirements for the workshop:
 * [node](https://nodejs.org/en/)
+* [git](https://git-scm.com/)
+* Signed in to GitHub locally
 
 The **operating system** you use shouldn't matter as long as you can run commands with npm (or yarn if that's your thing).
 
-If you can run `npm -v`, you should be good to go.
+If you can run `npm -v` and `git --version`, you should be good to go.
 
-But you can confirm that you're ready to go by using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app) to test creating a new Next.js app.
+If you run `ssh -T git@github.com`, you can confirm that your GitHub account is logged in, otherwise check out their [guide on github.com](https://docs.github.com/en/get-started/quickstart/set-up-git).
+
+You can confirm you're development environment is ready to go by using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app) to test creating a new Next.js app.
 
 ```
 npx create-next-app
