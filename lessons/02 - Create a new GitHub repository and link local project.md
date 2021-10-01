@@ -40,6 +40,9 @@ While sometimes starting from scratch is an option, we already have some code, b
 
 Connect your new local project to your new GitHub repository.
 
+#### Resources
+* [Adding an existing project to GitHub using the command line](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
+
 ## Extra Credit
 
 ### 1. Update the project's README with information about your store
