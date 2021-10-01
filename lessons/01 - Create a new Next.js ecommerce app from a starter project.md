@@ -1,6 +1,6 @@
 # 📓 Lesson 01: Create a new Next.js ecommerce app from a starter project
 
-Next.js is a web framework with a variety of tools built on top of React that gives developers a way to build powerful web apps.
+[Next.js](https://nextjs.org/) is a web framework with a variety of tools built on top of [React](https://reactjs.org/) that gives developers a way to build powerful web apps.
 
 The best part? The APIs that make it so powerful and flexible aren't overly complicated, making the framework more approachable to get started with. 
 
