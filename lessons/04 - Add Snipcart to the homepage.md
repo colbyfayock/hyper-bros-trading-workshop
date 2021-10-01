@@ -1,12 +1,14 @@
 # 📓 Lesson 04: Add Snipcart to the homepage
 
-[Snipcart](https://snipcart.com/) is an ecommerce solution that allows you to easily add a shopping cart to any type of website with a few lines of code!
+[Snipcart](https://snipcart.com/) is a ecommerce software that allows you to easily add a shopping cart to any type of website with a few lines of code!
 
 Not only is it easy to integrate, it comes with the entire checkout flow from giving your customers the ability to actually add the products to a cart, ordering those products, and tools for you as a seller to fulfill those products.
 
 ## Getting Started
 
+In this lesson, we'll learn how to take our store online with Snipcart's shopping cart integration.
 
+With our shopping cart added, we'll work out of Snipcart's "Test" mode so we can see exactly what making a purchase looks like and successfully make a test purchase with our account.
 
 ## Objectives
 * Find Snipcart API key
@@ -16,20 +18,61 @@ Not only is it easy to integrate, it comes with the entire checkout flow from gi
 
 ## Exercises
 
-### 1.
+### 1. Finding a Snipcart API key and configuring domains
 
+In order to make our Snipcart shopping cart work, we need to ultimately provide an API key that's going to allow us to connect to our own account.
 
+We also need to be able to configure out domains so that API key works with our sites.
+
+To do this, we'll first need to find our key, then configure that key for:
+* Our local environment
+* Our Netlify environment
+
+#### Goal
+
+Find the Snipcart API key and configure domains for localhost:3000 and your Netlify URL
 
 #### Resources
-*
+* [API Keys - Snipcart](https://docs.snipcart.com/v3/dashboard/account-configuration#3-api-keys)
+* [Domain URLs - Snipcart](https://docs.snipcart.com/v3/dashboard/store-configuration#5-domains--urls)
 
+### 2. Installing the Snipcart SDK
 
-## Extra Credit
+Adding Snipcart to a web project is as simple as dropping in a few scripts, but in a Next.js React project, where do we actually put those scripts?
 
-### 1. Use an enviornment variable to store the Snipcart API key locally and on Netlify
+We'll learn how to load external scripts and styles to add the Snipcart integration to our site while using our API key to configure it for our project.
 
+#### Where We'll Make Changes
+* `src/pages/index.js`
+
+### 3. Use an environment variable to store the Snipcart API key locally and on Netlify
+
+We're currently adding our Snipcart API key directly in our code, which _works_ but committing API keys to Git repositories is typically frowned upon. While the Snipcart API keys are generally publicly available on a website, it's still best practice not to.
+
+On top of that, we're currently using our "Test" API key. When we make our online store live, we need to be sure we're using a real production API key.
+
+To solve this, we'll use an environment variable to store our Snipcart API key where we then have the option to easily interchange our key without having to change any code.
+
+#### Goal
+
+Create a local environment to store the Snipcart API key. Then add that environment variable to Netlify and redeploy.
 
 #### Where We'll Make Changes
 * `src/pages/index.js`
 * `.env.local`
 * Netlify
+
+#### Resources
+* [Environment Variables - Next.js](https://nextjs.org/docs/basic-features/environment-variables)
+* [Build Environment Variables - Netlify](https://docs.netlify.com/configure-builds/environment-variables/)
+
+### 4. Making products available to add to the Snipcart shopping cart
+
+### 5. Adding a link to easily open the shopping cart
+
+## Extra Credit
+
+### 1. Change the shopping cart modal style to narrow
+
+#### Resources
+* [Global Configurations - Snipcart](https://docs.snipcart.com/v3/setup/installation#global-configurations)
