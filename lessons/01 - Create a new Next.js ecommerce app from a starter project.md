@@ -24,6 +24,10 @@ By default, Create Next App will use a Next.js-managed template, which gives an 
 
 In order to make the best of our time, we'll be starting from an example Next.js app, using the same commandline tool, but by passing in an additional argument with our template.
 
+#### Goal
+
+Create a new Next.js application using the Hyper Bros. Trading Workshop Starter
+
 #### Resources
 * [Hyper Bros Trading Workshop Starter](https://github.com/colbyfayock/hyper-bros-trading-workshop-starter) (github.com)
 * [Create Next App](https://nextjs.org/docs/api-reference/create-next-app) (nextjs.org)
@@ -36,6 +40,10 @@ Part of that is its APIs for creating pages and fetching data to build those exp
 
 We'll explore some of the features we're already using with Next.js and the basics of our new online store.
 
+#### Goal
+
+Learn about Next.js and the new project.
+
 ## Extra Credit
 
 ### 1. Update the title of the store
@@ -45,6 +53,10 @@ We started up a new online store called Hyper Bros Trading, but they don't franc
 Update the title of the store throughout the application to your new store!
 
 P.S. don't forget the SEO metadata!
+
+#### Goal
+
+Update all instances of Hyper Bros. Trading in the application with a new name
 
 #### Where We'll Make Changes
 * `src/pages/index.js`
@@ -57,6 +69,10 @@ P.S. don't forget the SEO metadata!
 Not only do you have a new store name, you likely have your own branding!
 
 Find the settings that control the colors of the layout including the blue, yellow, and green, and change them to your own favorite colors.
+
+#### Goal
+
+Update the store branding to use new colors.
 
 #### Where We'll Make Changes
 * Reivew the color settings file inside `src/styles/settings/_colors.scss` and use search to find each color!
