@@ -1,6 +1,6 @@
 # 📓 Lesson 02: Create a new GitHub repository and link local project
 
-[GitHub](https://github.com/) (where you might be looking at this from) is a web platform that gives developers the ability to utilize version control system Git in a more "social" and collaborative way. On top of that, it has loads of other features like my favorite,[Actions](https://www.youtube.com/colbz/search?query=github%20actions) and even [Codespaces](https://github.com/features/codespaces)!
+[GitHub](https://github.com/) (where you might be looking at this from) is a web platform that gives developers the ability to utilize version control system Git in a more "social" and collaborative way. On top of that, it has loads of other features like my favorite [Actions](https://www.youtube.com/colbz/search?query=github%20actions) and even [Codespaces](https://github.com/features/codespaces)!
 
 As developers, it's probably one of the most foundational tools we can learn, as Git (and GitHub) make working with teams a much better experience.
 
