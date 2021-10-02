@@ -55,7 +55,7 @@ To solve this, we'll use an environment variable to store our Snipcart API key w
 
 #### Goal
 
-Create a local environment to store the Snipcart API key. Then add that environment variable to Netlify and redeploy.
+Create a local environment variable to store the Snipcart API key. Then add that environment variable to Netlify and redeploy.
 
 #### Where We'll Make Changes
 * `src/pages/index.js`
@@ -68,11 +68,44 @@ Create a local environment to store the Snipcart API key. Then add that environm
 
 ### 4. Making products available to add to the Snipcart shopping cart
 
+We want people to buy our products and to do that, they need to add them to the cart.
+
+Snipcart makes recognizing what products your selling easy by using a class and data attributes that we can add right onto the Add to Cart button.
+
+#### Goal
+
+Set up Snipcart to recognize the product Add to Cart buttons
+
+#### Where We'll Make Changes
+* `src/pages/index.js`
+
+#### Resources
+* [Products - Snipcart](https://docs.snipcart.com/v3/setup/products)
+
 ### 5. Adding a link to easily open the shopping cart
+
+Whenever someone adds something to the cart, the Snipcart shopping cart opens up to review, but what if someone wants to review their cart without adding another item?
+
+Similar to how Snipcart makes it easy to set up our Add to Cart button, we can make a View Cart link that lets someone open up their cart. We can even make it show the subtotal of the cart!
+
+#### Goal
+
+Set up Snipcart to recognize a link to the cart and show the cart subtotal.
 
 ## Extra Credit
 
 ### 1. Change the shopping cart modal style to narrow
+
+Snipcart has a variety of customization options that we'll get into with later lessons, but one basic customization is controlling how we want to display our shopping cart!
+
+Right now when it opens, it takes up the whole page, but another option is to have it only take up a portion of the page, that way our customers can still see the store in the background when the cart is open.
+
+#### Goal
+
+Configure Snipcart to open the shopping cart modal with the narrow option.
+
+#### Where We'll Make Changes
+* `src/pages/index.js`
 
 #### Resources
 * [Global Configurations - Snipcart](https://docs.snipcart.com/v3/setup/installation#global-configurations)
