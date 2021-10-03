@@ -1,9 +1,16 @@
 # 📓 Lesson 05: Integrate Snipcart sitewide
 
+Some websites might limit their stores to a single page or section, but our goal is to expand beyond the homepage with pages for each product.
+
+That means we need to move Snipcart from only being available on the homepage to loading it for every page to have access to.
 
 ## Getting Started
 
+In this lesson, we'll learn how to load scripts globally in a Next.js app and wire up our product pages.
 
+While doing so, we'll actually hit a snag! 😱 As the Snipcart installation will have trouble working alongside clientside routing.
+
+So we'll also review why that's happening and how we can resolve that issue with React hooks.
 
 ## Objectives
 * Move Snipcart installation to a global file
@@ -17,10 +24,13 @@
 
 ### 1. Move Snipcart to application root document
 
+Because we need to load Snipcart globally, we need to find a place to stick it.
+
+Next.js supports adding a custom \_document.js file, which is a perfect place to add a globally need external script.
 
 #### Goal
 
-Move the scripts that initalize Snipcart to \_document.js
+Create a custom \_document.js and move the scripts that initalize Snipcart to that file.
 
 #### Where We'll Make Changes
 * `src/pages/_document.js`
@@ -31,10 +41,13 @@ Move the scripts that initalize Snipcart to \_document.js
 
 ### 2. Configure product pages to use Snipcart
 
+Now that we have Snipcart loading globally, we can use it to set up our product pages so that we can additionally allow customers to Add to Cart there.
+
+> Tip: Implementation should look very similar to our homepage!
 
 #### Goal
 
-Config the product page Add to Cart buttons for Snipcart
+Configure the product page Add to Cart buttons for Snipcart
 
 #### Where We'll Make Changes
 *
