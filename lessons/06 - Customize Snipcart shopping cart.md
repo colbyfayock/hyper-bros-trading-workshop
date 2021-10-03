@@ -13,12 +13,27 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 ## Objectives
 * Review existing shopping cart
 * Use CSS properties to customize shopping cart
+* Add styles based on Snipcart state
 * Override components with templates
 * Use a custom HTML page to manage templates
 
 ## Exercises
 
-### 1.
+### 1. Customize the shopping cart with Snipcart Theming
+
+
+
+#### Goal
+
+
+
+#### Where We'll Make Changes
+* 
+
+#### Resources
+* [Theming - Snipcart](https://docs.snipcart.com/v3/setup/theming)
+
+### 2. Use DOM classes managed by Snipcart to add styles
 
 
 
@@ -32,10 +47,38 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 #### Resources
 * 
 
+### 3. Override the Snipcart UI with custom component templates 
+
+
+
+#### Goal
+
+
+
+#### Where We'll Make Changes
+* 
+
+#### Resources
+* [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
+
+### 4. Manage custom templates in an external file
+
+
+
+#### Goal
+
+
+
+#### Where We'll Make Changes
+* 
+
+#### Resources
+* [Defining templates in an external file - Snipcart](https://docs.snipcart.com/v3/setup/customization#defining-templates-in-an-external-file)
+
 
 ## Extra Credit
 
-### 1.
+### 1. Override and customize another cart UI component
 
 
 
