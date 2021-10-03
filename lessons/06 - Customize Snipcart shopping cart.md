@@ -14,6 +14,7 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 * Review existing shopping cart
 * Use CSS properties to customize shopping cart
 * Override components with templates
+* Use a custom HTML page to manage templates
 
 ## Exercises
 
@@ -21,8 +22,15 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 
 
 
+#### Goal
+
+
+
+#### Where We'll Make Changes
+* 
+
 #### Resources
-*
+* 
 
 
 ## Extra Credit
@@ -30,5 +38,13 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 ### 1.
 
 
+
+#### Goal
+
+
+
 #### Where We'll Make Changes
-*
+* 
+
+#### Resources
+* 
