@@ -8,7 +8,7 @@ While we can manually look through a list of products to see if a product's titl
 
 In this lesson, we'll learn how to search through our array of products based on a query to give customers a way to look for specific products.
 
-To do that, we'll use node library fuse.js, which allows us to set up a new instance of 
+To do that, we'll use node library fuse.js, which allows us to set up a new search instance that we'll make our queries to.
 
 ## Objectives
 * 
