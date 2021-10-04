@@ -19,7 +19,8 @@ export default function Home() {
 
   const fuse = new Fuse(activeProducts, {
     keys: [
-      'title'
+      'title',
+      'allegiance'
     ]
   });
 
