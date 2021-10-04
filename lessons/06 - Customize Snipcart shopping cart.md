@@ -31,7 +31,7 @@ This means we can override those values to use colors that match our brand!
 
 Override the Snipcart shopping cart custom properties to match your brand styles.
 
-> Tip: I recommend creating a \_snipcart.scss file at the top of the styles directory and importing that into the main globals.scss file.
+> Tip: You can find \_snipcart.scss at the top of the styles directory to use for Snipcart-specific styling.
 
 #### Where We'll Make Changes
 * `src/styles/_snipcart.scss`
@@ -69,7 +69,7 @@ But this gives us the opportunity to craft our experience exactly how we want.
 Customize a Snipcart UI template.
 
 #### Where We'll Make Changes
-* 
+* `src/pages/_document.js`
 
 #### Resources
 * [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
@@ -77,31 +77,35 @@ Customize a Snipcart UI template.
 
 ### 4. Manage custom templates in an external file
 
+By default, we're able to configure all of our template overrides right inside of the Snipcart initialization snippet.
 
+But as we could imagine, working with a bunch of Vue templates there (or even just one) can start to become a little hard to manage.
+
+Instead, we can specify a separate templates file to help organize and improve our development experience. 
 
 #### Goal
 
-
+Create and link to a Snipcart templates file to manage component overrides.
 
 #### Where We'll Make Changes
-* 
+* `public/snipcart-templates.html`
+* `src/pages/_document.js`
 
 #### Resources
 * [Defining templates in an external file - Snipcart](https://docs.snipcart.com/v3/setup/customization#defining-templates-in-an-external-file)
-
 
 ## Extra Credit
 
 ### 1. Override and customize another cart UI component
 
-
+Now that we have an idea on how to customize our shopping cart UI, let's try another component!
 
 #### Goal
 
-
+Set up a new template to override a shopping cart component.
 
 #### Where We'll Make Changes
-* 
+* `public/snipcart-templates.html`
 
 #### Resources
 * [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
