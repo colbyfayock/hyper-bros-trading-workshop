@@ -2,7 +2,7 @@
 
 As we've seen to this point, Snipcart gave us a pretty easy way to build an online store with a shopping cart.
 
-While the Snipcart design team did a fantastic job with the UI, it doesn't really look like _our_ site.
+While the Snipcart design team did a fantastic job with the UI, it doesn't really look like _our_ site. 🤔
 
 ## Getting Started
 
@@ -21,45 +21,59 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 
 ### 1. Customize the shopping cart with Snipcart Theming
 
+The easiest way to get started with Snipcart Theming is by using CSS properties (variables).
 
+Snipcart uses CSS properties to define styles for the shopping cart UI including things like button and link color.
+
+This means we can override those values to use colors that match our brand!
 
 #### Goal
 
+Override the Snipcart shopping cart custom properties to match your brand styles.
 
+> Tip: I recommend creating a \_snipcart.scss file at the top of the styles directory and importing that into the main globals.scss file.
 
 #### Where We'll Make Changes
-* 
+* `src/styles/_snipcart.scss`
 
 #### Resources
+* [Custom Properties - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
 * [Theming - Snipcart](https://docs.snipcart.com/v3/setup/theming)
 
 ### 2. Use DOM classes managed by Snipcart to add styles
 
+One fun thing about how Snipcart works is any time the cart is open, a class is appended to the document body node.
 
+We can take advantage of this and apply custom styles whenever the modal is open.
 
 #### Goal
 
-
+Add custom styles to the app that apply whenever the Snipcart shopping cart is open.
 
 #### Where We'll Make Changes
-* 
+* `src/styles/_snipcart.scss`
 
 #### Resources
-* 
+* Browser developer tools inspector
 
 ### 3. Override the Snipcart UI with custom component templates 
 
+If we want to take our customizzations up a notch, Snipcart lets us completely override components with their template customization.
 
+The components use Vue, so we can even use advanced syntax if we want (hey isn't this a React workshop? 👀).
+
+But this gives us the opportunity to craft our experience exactly how we want.
 
 #### Goal
 
-
+Customize a Snipcart UI template.
 
 #### Where We'll Make Changes
 * 
 
 #### Resources
 * [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
+* [Default theme reference - Snipcart](https://docs.snipcart.com/v3/themes/default/reference)
 
 ### 4. Manage custom templates in an external file
 
@@ -90,4 +104,5 @@ In this lesson, we'll learn how to theme our Snipcart shopping cart and even com
 * 
 
 #### Resources
-* 
+* [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
+* [Default theme reference - Snipcart](https://docs.snipcart.com/v3/themes/default/reference)
