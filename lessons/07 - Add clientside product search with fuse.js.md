@@ -11,11 +11,74 @@ In this lesson, we'll learn how to search through our array of products based on
 To do that, we'll use node library fuse.js, which allows us to set up a new search instance that we'll make our queries to.
 
 ## Objectives
-* 
+* Use React state to capture a search query
+* Install fuse.js
+* Create a search with fuse
+* Add additional fields to the search
 
 ## Exercises
 
-### 1. 
+### 1. Capture a form's input value and store in React state
+
+The first and most important part involved in creating a search is the search query itself.
+
+We can capture that query using a search form then grabbing the value when that input changes.
+
+But in order to use it later in our search, we need to store it somewhere first, which is where React state comes in.
+
+> Tip: Uncomment out [the function handleOnSearch](https://github.com/colbyfayock/hyper-bros-trading-workshop-starter/blob/main/src/pages/index.js#L15-L17) and [the search form](https://github.com/colbyfayock/hyper-bros-trading-workshop-starter/blob/main/src/pages/index.js#L28-L35) to get started!
+
+#### Goal
+
+Store the search input value in React state when some enters a query in the form
+
+#### Where We'll Make Changes
+* `src/pages/index.js`
+
+#### Resources
+* [Using the State Hook](https://reactjs.org/docs/hooks-state.html)
+
+### 2. Install & review fuse.js
+
+Search is a super common way of adding discoverability to a website.
+
+Simple string searches might sound easy, such as if we wanted to look for "Colby" in "Colby's Cards", but there are a ton of factors that start to make search complicated.
+
+In this specific scenario, what if someone typed "colby"? A string match wouldn't "just work" as uppercase and lowercase values are different. We can handle that by transforming both before we compare using `toLowerCase()`, but what if in another instance we searched "colbys", again would that match? If we removed all of the "'" characters, would "colby's" still match?
+
+While these are just two examples, search starts to get more complicated as those rules pile up. But rather than deal with that ourselves, we can take advantge of an easy-to-install library to handle that logic.
+
+To power our search, we're going to use fuse.js, a library we can install right with npm.
+
+#### Goal
+
+Install fuse.js with npm and review features in documentation.
+
+#### Where We'll Make Changes
+* Terminal
+
+#### Resources
+* [fuse.js](https://fusejs.io/)
+
+### 3. Create a new fuse.js instance and make a search
+
+Now that fuse.js is installed, it's time to use it.
+
+To do this, we need to set up a new instance of fuse.js with our configuration, which will the allow us to make a search to it.
+
+We'll then use the filtered data from those results to display our results in the UI.
+
+#### Goal
+
+
+
+#### Where We'll Make Changes
+* `src/pages/index.js`
+
+#### Resources
+* 
+
+### 4. 
 
 
 
@@ -24,7 +87,7 @@ To do that, we'll use node library fuse.js, which allows us to set up a new sear
 
 
 #### Where We'll Make Changes
-* 
+* `src/pages/index.js`
 
 #### Resources
 * 
