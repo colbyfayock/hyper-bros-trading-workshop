@@ -36,19 +36,21 @@ There are a few things you'll want to make sure you'll have prepped before we ju
 First off, you'll want to make sure that you meet the miminum environment requirements in the section below. Basically, you should be able to use npm for working with projects locally on your machine or if you're using a cloud environment like CodeSandbox.
 
 You'll also want to make sure you have signed up for a free acount with the following:
-- GitHub
-- Snipcart
-- Netlify Account
+- [GitHub](https://github.com/)
+- [Snipcart](https://snipcart.com/)
+- [Netlify](https://netlify.com/)
 
 While you _can_ do these things during the workshop, you risk the chance that you'll fall behind while we're working through the curriculum.
 
 ### Environment Requirements
-There are two things that are probably considered a "strict" requirements for the workshop:
+There are three things that are probably considered "strict" requirements for the workshop:
 * [node](https://nodejs.org/en/)
 * [git](https://git-scm.com/)
 * Signed in to GitHub locally
 
 This means that you should have basic familiar with a terminal as we'll be using it to run commands.
+
+> Note: if you're more comfortable with a Git GUI and are signed into GitHub, you should be able to follow along with that!
 
 > Not sure how to use a terminal? You still might be able to follow along, see how with [Getting Started Without a Terminal](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/help/Getting%20Started%20Without%20a%20Terminal.md)
 
