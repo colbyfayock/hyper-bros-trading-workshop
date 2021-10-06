@@ -61,3 +61,7 @@ Tip: Try changing the store's name to something goofy on a new branch, pushing t
 
 #### Resources
 * [Creating a pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+
+## Next Lesson
+
+[04 - Add Snipcart to the homepage](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/04%20-%20Add%20Snipcart%20to%20the%20homepage.md)
