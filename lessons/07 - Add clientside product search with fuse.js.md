@@ -112,3 +112,11 @@ Display something when no results are available such as a message indictating su
 
 #### Where We'll Make Changes
 * `src/pages/index.js`
+
+## Feedback
+
+The good, the bad -- I want to know! I would really appreciate you taking any time to hop in this survey and be honest about your experience with the workshop. Please take into consideration both how much you've enjoyed the workshop and how much you felt you've learned.
+
+[Take the survey!](https://forms.gle/Ku2gopCyGyYXfHC19) (https://forms.gle/Ku2gopCyGyYXfHC19)
+
+P.S. The form is anonymous unless you decide to provide contact details to follow up with.
