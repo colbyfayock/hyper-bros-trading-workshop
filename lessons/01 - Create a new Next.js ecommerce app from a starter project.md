@@ -76,3 +76,8 @@ Update the store branding to use new colors.
 
 #### Where We'll Make Changes
 * Reivew the color settings file inside `src/styles/settings/_colors.scss` and use search to find each color!
+
+
+## Next Lesson
+
+[02 - Create a new GitHub repository and link local project](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/02%20-%20Create%20a%20new%20GitHub%20repository%20and%20link%20local%20project.md)
