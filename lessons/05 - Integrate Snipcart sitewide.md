@@ -134,3 +134,7 @@ Add an animation that indicates the cart UI is loading.
 
 #### Resources
 * [CSS Only Loading Animation](https://codepen.io/colbyfayock/pen/aKKoJP)
+
+## Next Lesson
+
+[06 - Customize Snipcart shopping cart](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/06%20-%20Customize%20Snipcart%20shopping%20cart.md)
