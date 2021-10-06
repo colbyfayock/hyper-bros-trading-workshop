@@ -14,7 +14,6 @@ To do that, we'll use node library fuse.js, which allows us to set up a new sear
 * Use React state to capture a search query
 * Install fuse.js
 * Create a search with fuse
-* Add additional fields to the search
 
 ## Exercises
 
@@ -70,40 +69,46 @@ We'll then use the filtered data from those results to display our results in th
 
 #### Goal
 
-
-
-#### Where We'll Make Changes
-* `src/pages/index.js`
-
-#### Resources
-* 
-
-### 4. 
-
-
-
-#### Goal
-
-
+Create a new fuse.js instance and make a search with the query.
 
 #### Where We'll Make Changes
 * `src/pages/index.js`
 
 #### Resources
-* 
+* [Examples - fuse.js](https://fusejs.io/examples.html)
 
 ## Extra Credit
 
-### 1. 
+### 1. Add additional fields to the search configuration
 
+One of the awesome things about fuse.js is we can just as easily add new fields to be searched upon as we added our original product name.
 
+To do that, we can update the `keys` field to include our new field.
 
 #### Goal
 
-
+Add a new field from the product data to be searched upon.
 
 #### Where We'll Make Changes
-* 
+* `src/pages/index.js`
 
 #### Resources
-* 
+* [Keys - fuse.js](https://fusejs.io/api/options.html#keys)
+
+
+### 2. Show a message on the page if there are no results
+
+The goal of adding search is to show the items that match what our visitor entered as a query.
+
+But what if there are no items that match that query?
+
+Instead of just empty space we can add a better experience by telling our visitor nothing matches.
+
+And to extend that, we can even use it strategicly such as adding a link to a recommended product!
+
+#### Goal
+
+Display something when no results are available such as a message indictating such.
+
+#### Where We'll Make Changes
+* `src/pages/index.js`
