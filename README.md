@@ -2,10 +2,10 @@
 
 In this workshop you'll learn how to build an online store using modern web tools including Next.js, Snipcart, and Netlify.
 
-* [Workshop Overview](#workshop-overview)
-* [Who Am I?](#who-am-i)
-* [Before the Workshop](#before-the-workshop)
-* [During the Workshop](#during-the-workshop)
+* [Workshop Overview](#-workshop-overview)
+* [Who Am I?](#-who-am-i)
+* [Before the Workshop](#-before-the-workshop)
+* [During the Workshop](#-during-the-workshop)
 
 Demo: https://hyper-bros-trading-workshop.netlify.app/
 
