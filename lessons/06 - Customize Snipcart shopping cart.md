@@ -110,3 +110,7 @@ Set up a new template to override a shopping cart component.
 #### Resources
 * [Customization - Snipcart](https://docs.snipcart.com/v3/setup/customization)
 * [Default theme reference - Snipcart](https://docs.snipcart.com/v3/themes/default/reference)
+
+## Next Lesson
+
+[07 - Add clientside product search with fuse.js](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/07%20-%20Add%20clientside%20product%20search%20with%20fuse.js.md)
