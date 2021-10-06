@@ -98,8 +98,13 @@ As far as the project we'll create and work through together, you're welcome to 
 
 ### Lesson Plan
 
-* [00 - Introduction](https://github.com/colbyfayock/space-jelly-store-workshop/tree/main/lessons/00%20-%20Introduction)
-* 
+* [01 - Create a new Next.js ecommerce app from a starter project](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/01%20-%20Create%20a%20new%20Next.js%20ecommerce%20app%20from%20a%20starter%20project.md)
+* [02 - Create a new GitHub repository and link local project](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/02%20-%20Create%20a%20new%20GitHub%20repository%20and%20link%20local%20project.md)
+* [03 - Connect and deploy project from GitHub to Netlify](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/03%20-%20Connect%20and%20deploy%20project%20from%20GitHub%20to%20Netlify.md)
+* [04 - Add Snipcart to the homepage](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/04%20-%20Add%20Snipcart%20to%20the%20homepage.md)
+* [05 - Integrate Snipcart sitewide](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/05%20-%20Integrate%20Snipcart%20sitewide.md)
+* [06 - Customize Snipcart shopping cart](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/06%20-%20Customize%20Snipcart%20shopping%20cart.md)
+* [07 - Add clientside product search with fuse.js](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/07%20-%20Add%20clientside%20product%20search%20with%20fuse.js.md)
 
 ## 🎓 After the Workshop
 
