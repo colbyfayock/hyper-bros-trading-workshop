@@ -76,3 +76,7 @@ Update package.json with your project and author information
 
 #### Where We'll Make Changes
 * `package.json`
+
+## Next Lesson
+
+[03 - Connect and deploy project from GitHub to Netlify](https://github.com/colbyfayock/hyper-bros-trading-workshop/blob/main/lessons/03%20-%20Connect%20and%20deploy%20project%20from%20GitHub%20to%20Netlify.md)
