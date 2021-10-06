@@ -120,3 +120,10 @@ The good, the bad -- I want to know! I would really appreciate you taking any ti
 [Take the survey!](https://forms.gle/Ku2gopCyGyYXfHC19) (https://forms.gle/Ku2gopCyGyYXfHC19)
 
 P.S. The form is anonymous unless you decide to provide contact details to follow up with.
+
+
+## More Ecommerce on the Jamstack
+
+Looking to take what you've learned to another level? Check out my course Ecommerce on the Jamstack where I walk you through some of the things you've work through in this workshop and more, including sourcing our products from headless WordPress and how we can manually build our Snipcart hook with React State and Context in addition to other features!
+
+https://www.leveluptutorials.com/tutorials/ecommerce-on-the-jamstack-with-snipcart-next-js-and-wordpress
