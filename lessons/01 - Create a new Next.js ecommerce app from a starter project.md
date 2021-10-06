@@ -64,6 +64,10 @@ Update all instances of Hyper Bros. Trading in the application with a new name
 * `src/components/Footer/Footer.js`
 * `src/components/Header/Header.js`
 
+#### Answer
+
+Search the demo for `@lesson1-ec-1`
+
 ### 2. Customize your store's colors
 
 Not only do you have a new store name, you likely have your own branding!
