@@ -113,3 +113,5 @@ As far as the project we'll create and work through together, you're welcome to 
 The good, the bad -- I want to know! I would really appreciate you taking any time to hop in this survey and be honest about your experience with the workshop. Please take into consideration both how much you've enjoyed the workshop and how much you felt you've learned.
 
 [Take the survey!](https://forms.gle/Ku2gopCyGyYXfHC19) (https://forms.gle/Ku2gopCyGyYXfHC19)
+
+P.S. The form is anonymous unless you decide to provide contact details to follow up with.
