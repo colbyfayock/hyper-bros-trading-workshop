@@ -55,7 +55,21 @@ Configure the product page Add to Cart buttons for Snipcart
 #### Resources
 * [Products - Snipcart](https://docs.snipcart.com/v3/setup/products)
 
-### 3. Review Snipcart limitations with clientside routing
+### 2. Move Cart link and subtotal to sitewide header
+
+Since we can now add our products to the cart from the product page, we likely want to make sure our customers can see that total and link wherever they go on the site!
+
+> Tip: You can uncomment the code inside of the Header component file to get some pre-styled UI! That menas you can remove or comment the one on the homepage (if you want).
+
+#### Goal
+
+Set up the cart to be in the sitewide header.
+
+#### Where We'll Make Changes
+* `src/components/Header/Header.js`
+* `src/pages/index.js`
+
+### 4. Review Snipcart limitations with clientside routing
 
 If we start from the product or homepage in a new tab or hit the refresh button, Snipcart will always recoginze what's in the cart and what needs to be added.
 
@@ -69,7 +83,7 @@ While ultimately Snipcart never lost track of the cart state and if you refresh 
 
 Understand integration issues with Snipcart and clientside routing in apps
 
-### 4. Install useSnipcart React hook from npm
+### 5. Install useSnipcart React hook from npm
 
 To get around our state issue, we can manually track the Snipcart state using React hooks, where we'll be able to use the Context API to make that state globally available in our application.
 
@@ -85,7 +99,7 @@ Install and review npm package use-snipcart
 #### Resources
 * [use-snipcart - GitHub](https://github.com/colbyfayock/use-snipcart)
 
-### 5. Use the useSnipcart hook to manage global cart state
+### 6. Use the useSnipcart hook to manage global cart state
 
 Our new hook is installed so now's the time to use it!
 
