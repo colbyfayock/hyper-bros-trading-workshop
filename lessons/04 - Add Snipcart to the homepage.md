@@ -45,6 +45,9 @@ We'll learn how to load external scripts and styles to add the Snipcart integrat
 #### Where We'll Make Changes
 * `src/pages/index.js`
 
+#### Resources
+* [Installation - Snipcart](https://docs.snipcart.com/v3/setup/installation)
+
 ### 3. Use an environment variable to store the Snipcart API key locally and on Netlify
 
 We're currently adding our Snipcart API key directly in our code, which _works_ but committing API keys to Git repositories is typically frowned upon. While the Snipcart API keys are generally publicly available on a website, it's still best practice not to.
