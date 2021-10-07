@@ -110,7 +110,6 @@ We're currently using classes to allow Snipcart to update the page any time the 
 Manage Snipcart state globally with the useSnipcart hook
 
 #### Where We'll Make Changes
-* `src/pages/index.js`
 * `src/components/Header/Header.js`
 
 #### Resources
