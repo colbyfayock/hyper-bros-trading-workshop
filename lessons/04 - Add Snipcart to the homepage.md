@@ -95,6 +95,12 @@ Similar to how Snipcart makes it easy to set up our Add to Cart button, we can m
 
 Set up Snipcart to recognize a link to the cart and show the cart subtotal.
 
+#### Where We'll Make Changes
+* `src/pages/index.js`
+
+#### Resources
+* [Cart Summary - Snipcart](https://docs.snipcart.com/v3/setup/cart-summary)
+
 ## Extra Credit
 
 ### 1. Change the shopping cart modal style to narrow
