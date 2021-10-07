@@ -59,11 +59,11 @@ Configure the product page Add to Cart buttons for Snipcart
 
 Since we can now add our products to the cart from the product page, we likely want to make sure our customers can see that total and link wherever they go on the site!
 
-> Tip: You can uncomment the code inside of the Header component file to get some pre-styled UI! That menas you can remove or comment the one on the homepage (if you want).
-
 #### Goal
 
 Set up the cart to be in the sitewide header.
+
+> Tip: You can uncomment the code inside of the Header component file to get some pre-styled UI! That menas you can remove or comment the one on the homepage (if you want).
 
 #### Where We'll Make Changes
 * `src/components/Header/Header.js`
