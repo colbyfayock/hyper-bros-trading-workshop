@@ -37,7 +37,7 @@ First off, you'll want to make sure that you meet the miminum environment requir
 
 You'll also want to make sure you have signed up for a free acount with the following:
 - [GitHub](https://github.com/)
-- [Snipcart](https://snipcart.com/)
+- [Snipcart](https://snipcart.com/) (Get a free month using this link: https://spacejelly.dev/snipcart)
 - [Netlify](https://netlify.com/)
 
 While you _can_ do these things during the workshop, you risk the chance that you'll fall behind while we're working through the curriculum.
