@@ -30,7 +30,6 @@ Create a new Next.js application using the Hyper Bros. Trading Workshop Starter
 
 #### Resources
 * [Hyper Bros Trading Workshop Starter](https://github.com/colbyfayock/hyper-bros-trading-workshop-starter) (github.com)
-* [Create Next App](https://nextjs.org/docs/api-reference/create-next-app) (nextjs.org)
 
 ### 2. Exploring Next.js and how pages work 
 
